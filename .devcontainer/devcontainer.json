@@ -1,13 +1,17 @@
 {
 
 "name": "snipeit",
-
+  
+// docker-compose files to be used
 "dockerComposeFile": ["../docker-compose.yml"],
-
+  
+// The 'service' property is the name of the service for the container that VS Code should  
 "service": "snipeit",
 
+// The optional 'workspaceFolder' property is the path VS Code should open by default when  
 "workspaceFolder": "/var/www/html",
-
+  
+// Use 'forwardPorts' to make a list of ports inside the container available locally.
 "forwardPorts": [80]
 
 }
