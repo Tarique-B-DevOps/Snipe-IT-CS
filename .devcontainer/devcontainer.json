@@ -9,9 +9,9 @@
 "service": "snipeit",
 
 // The optional 'workspaceFolder' property is the path VS Code should open by default when  
-"workspaceFolder": "/var/www/html",
+"workspaceFolder": "/var/www/html"
   
 // Use 'forwardPorts' to make a list of ports inside the container available locally.
-"forwardPorts": [80]
+// "forwardPorts": [80]
 
 }
